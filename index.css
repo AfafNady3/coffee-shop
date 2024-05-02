@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family:'Times New Roman', Times, serif;
+    font: bold;
+    
+}
+body{
+    background-color: black;
+}
+
+
+label {
+    border-radius: 50;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    color: aliceblue;
+}
+
+.nav-flex {
+    flex: 1;
+}
+.nav-flex h1 {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(165, 109, 36);
+    font-family: cursive;
+}
+#home a {
+    text-decoration: wavy;
+    font-size: 20px;
+    color: rgb(18, 17, 16);
+    font-family: cursive;
+}
+#home-page{ 
+    margin-right: 15px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    background:linear-gradient(90deg,rgb(165, 109, 36),rgb(227, 206, 180));
+   
+}
+#home-page{ 
+    margin-right: 15px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    background:linear-gradient(90deg,rgb(165, 109, 36),rgb(227, 206, 180));
+   
+}
+#menu{ 
+    margin-right: 15px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    background:linear-gradient(90deg,rgb(165, 109, 36),rgb(227, 206, 180));
+   
+}
+#about{ 
+    margin-right: 15px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    background:linear-gradient(90deg,rgb(165, 109, 36),rgb(227, 206, 180));
+   
+}
+#review{ 
+    margin-right: 15px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    background:linear-gradient(90deg,rgb(165, 109, 36),rgb(227, 206, 180));
+   
+}
+#contact{ 
+    margin-right: 15px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    background:linear-gradient(90deg,rgb(165, 109, 36),rgb(227, 206, 180));
+   
+}
+
+#search-flex {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    
+}
+#search { margin-left: 10px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(165, 109, 36);
+    
+}
+#search-area{
+    font-size: 50;
+    background-color:rgb(239, 202, 154);
+    font-family: 'Times New Roman', Times, serif;
+   border-radius: 15%;
+   
+}
+#car {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid  rgb(165, 109, 36);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  
+#car:hover {
+    background:  rgb(165, 109, 36);
+    box-shadow: 0 0 30px 5px rgb(239, 202, 154);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  
+#car:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+  }
+  
+#car::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
+  
+  @keyframes sh02 {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+  
+#car:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+  }
+   
+#container img{
+    width: 100%;
+}
+#container h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:absolute;
+    color: #fff;
+    top: 100px;
+    left: 16px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
