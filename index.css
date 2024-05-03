@@ -195,7 +195,9 @@ label {
     width: 100%;
 }
 #container h1 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: "Satisfy", cursive;
+        font-weight: 400;
+        font-style: normal;
     position:absolute;
     color: #fff;
     top: 100px;
