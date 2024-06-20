@@ -213,28 +213,31 @@ label {
     color:#fff;
     position:absolute;
     top: 400px;
-    left: 50px;
+    left: 45px;
 }
 #menue h1{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:#fff;
-    position: absolute;
-    left: 500px;
+    /* position: absolute; */
+   margin-left: 550px;
+    /* margin-bottom: 100px; */
+    /* padding-bottom: 50px; */
 }
-/* #items img{
-    margin-left: 20px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-} */
+#items {
+  margin-top: 25px;
+    display:flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
 #items p{
     color: #fff;
     left: 20px;
 }
-.card {
+.card_1 {
     position: relative;
     width: 200px;
     height: 200px;
+    margin-top: 20px;
     background-color: #f1e8e86b;
     border-radius: 10px;
     display: flex;
@@ -246,13 +249,13 @@ label {
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .card svg {
+  .card_1 svg {
     width: 48px;
     fill: #333;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .card:hover {
+  .card_1:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
   }
@@ -265,13 +268,13 @@ label {
     height: 100%;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #f2f2f2;
+    background-color: #0f0e0e;
     transform: rotateX(-90deg);
     transform-origin: bottom;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .card:hover .card__content {
+  .card_1:hover .card__content {
     transform: rotateX(0deg);
   }
   
@@ -283,14 +286,15 @@ label {
     font :black;
   }
   
-  .card:hover svg {
+  .card_1:hover svg {
     scale: 0;
   }
   
   .card__description {
     margin: 10px 0 0;
     font-size: 14px;
-    color: #090909;
+    color: #151515;
+    
     line-height: 1.4;
   }
   
