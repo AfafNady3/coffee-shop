@@ -234,6 +234,7 @@ label {
   /* padding-bottom: 50px; */
 }
 #Hot{
+  height: 50px;
   margin-top: 25px;
   margin-right: 15px;
   margin-left: 10px;
@@ -246,6 +247,7 @@ label {
  
 }
 #cold{
+  height: 50px;
   margin-top: 25px;
   margin-right: 15px;
   margin-left: 10px;
