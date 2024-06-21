@@ -260,7 +260,7 @@ label {
 #items {
   margin-top: 25px;
     display:flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     justify-content: space-around;
 }
 #items p{
@@ -272,6 +272,7 @@ label {
     width: 200px;
     height: 200px;
     margin-top: 20px;
+    margin-left: 75px;
     background-color: #f1e8e86b;
     border-radius: 10px;
     display: flex;
