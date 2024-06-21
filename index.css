@@ -232,6 +232,19 @@ label {
   /* padding-bottom: 50px; */
 }
 #Hot{
+  margin-top: 25px;
+  margin-right: 15px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 50px;
+  margin-left: 600px;
+  background:linear-gradient(90deg,rgb(165, 109, 36),rgb(227, 206, 180));
+  
+ 
+}
+#cold{
+  margin-top: 25px;
   margin-right: 15px;
   margin-left: 10px;
   padding: 5px 10px;
