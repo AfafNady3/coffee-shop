@@ -223,6 +223,25 @@ label {
     /* margin-bottom: 100px; */
     /* padding-bottom: 50px; */
 }
+#menue h3{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:#181717;
+  /* position: absolute; */
+ /* margin-left: 550px; */
+  /* margin-bottom: 100px; */
+  /* padding-bottom: 50px; */
+}
+#Hot{
+  margin-right: 15px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 50px;
+  margin-left: 600px;
+  background:linear-gradient(90deg,rgb(165, 109, 36),rgb(227, 206, 180));
+  
+ 
+}
 #items {
   margin-top: 25px;
     display:flex;
@@ -257,7 +276,7 @@ label {
   
   .card_1:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 16px rgba(210, 141, 14, 0.2);
   }
   
   .card__content {
